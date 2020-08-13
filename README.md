@@ -8,7 +8,7 @@
     <p>
         <a href="https://michael-chacon.netlify.app/">
             <b>Do you want to learn JavaScript?</b>
-            <br> Guide for beginners as you watch it level up. <b>Answered</b>.
+            <br> Guide for beginners.
             <br>
             <div>
                 <img src="https://danielrodriguez.info/wp-content/uploads/2015/12/habilidades-desarrollador-web.jpg" width="260" alt="Guide">
