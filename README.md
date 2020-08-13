@@ -80,7 +80,7 @@
     
 3. ###   Characteristics and Grammar
 
-   Javascripts is a top programming language, a feature is the only language that can **ISOMORPHISM** make an application with a single language from start to finish, capable of running on all 3 layers of an application.
+   Javascripts is a superior programming language, a feature is the only language capable of **ISOMORPHISM** to make an application with a single language from start to finish, capable of running in all 3 layers of an application.
    
    1. Fronted(JavaScript).
    2. Backend(Node.js).
@@ -193,7 +193,7 @@
       V: var, volatile, void
       W: while, with
     ```
-   **code ordering (recommendation)**
+   **Code ordering (recommendation)**
     
     1. IMPORT OF MODULES.
     2. DECLARATION OF VARIABLES.
