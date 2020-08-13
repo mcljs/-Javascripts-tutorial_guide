@@ -137,7 +137,7 @@
             this.gender = gender
            }
         MyNameIs ()  {
-           return `My name is ${this.nombre}`
+           return `My name is ${this.name}`
            }
          }
       
