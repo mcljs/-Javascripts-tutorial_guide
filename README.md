@@ -114,8 +114,11 @@
      - An underscore _
      - Never with numbers or special characters
      
+     
      2. Use **snake_case** in:
+     
      - Archive:
+     
       ```
       my_javascript_file.js
     ```
