@@ -52,7 +52,7 @@
     
 1. ### What is JavaScript?
     
-    JavaScripts fue creado por Brendan Eich en 1995, la gente de Netscape Navigator le pide a Brendan Eich que haga una tecnologia que implemente cosas dinamicas como crear formularios, reaccionar a botones con HTML.
+    JavaScript is a programming language that makes websites come to life. This is in contrast to HTML (which specifies content) and CSS (which specifies layout) and, unlike PHP, runs on visitor devices and not on the server. It was created by Brendan Eich in 1995, the folks at Netscape Navigator ask Brendan Eich to make a technology that implements dynamic things like creating forms, reacting to buttons with HTML.
 
 
 
