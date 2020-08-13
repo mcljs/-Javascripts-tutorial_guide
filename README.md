@@ -211,7 +211,7 @@
     - undefined
     - NaN
     
-    2. **Compounds:** The value reference is accessed.
+    2.**Compounds:** The value reference is accessed.
     
     - object = {}
     - array = []
