@@ -26,7 +26,7 @@
 | --- | --------- |
 |   | **Core Javascript** |
 |1  | [What is JavaScript?](#what-is-javascript) |
-|2  | [What are the major features of React?](#what-are-the-major-features-of-react) |
+|2  | [EcmaScript?](#ecmascript) |
 |3  | [What is JSX?](#what-is-jsx) |
 |4  | [What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component) |
 |5  | [How to create components in React?](#how-to-create-components-in-react) |
@@ -51,25 +51,25 @@
 
     
 1. ### What is JavaScript?
+    
+    JavaScripts fue creado por Brendan Eich en 1995, la gente de Netscape Navigator le pide a Brendan que haga una tecnologia que implemente cosas dinamicas crear formularios, reaccionar a botones con HTML.
 
-    React is an **open-source frontend JavaScript library** which is used for building user interfaces especially for single page applications. It is used for handling view layer for web and mobile apps. React was created by [Jordan Walke](https://github.com/jordwalke), a software engineer working for Facebook. React was first deployed on Facebook's News Feed in 2011 and on Instagram in 2012.
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-2. ### What are the major features of React?
+2. ### EcmaScript?
 
-    The major features of React are:
-
-    * It uses **VirtualDOM** instead of RealDOM considering that RealDOM manipulations are expensive.
-    * Supports **server-side rendering**.
-    * Follows **Unidirectional** data flow or data binding.
-    * Uses **reusable/composable** UI components to develop the view.
+  | Edicion | Publicación || Cambios |
+  | ------- | ----------- || ------- |
+  | 1 | 1997 || Primera edicion. |
+  | 2 | 1998 || Cambios editorales para mantener la especificación completa alineada con el estándar internacional ISO/IEC 16262. |
+  
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-3. ### What is JSX?
+3. ### Ecmascript?
 
     *JSX* is a XML-like syntax extension to ECMAScript (the acronym stands for *JavaScript XML*). Basically it just provides syntactic sugar for the `React.createElement()` function, giving us expressiveness of JavaScript along with HTML like template syntax.
 
