@@ -95,6 +95,34 @@
     - Hybrid and mobile applications.
     - Machine learning.
     - etc.
+    
+     **Characteristics**
+     
+     - High Level Language
+     - Interpreted
+     - Dynamic
+     - Weakly Typed
+     - Multi paradigm
+     - Sensitive to UPPERCASE and lower case
+     - You do not need the semicolons at the end of each line
+     
+     **Code writing**
+     
+     1. **The identifiers** is the name you give to a variable, function, class. etc should start with:
+     - A letter o
+     - A dollar sign $ o
+     - An underscore _
+     - Never with numbers or special characters
+     
+     2. Use **snake_case** in:
+     - Archive:
+      ```
+      my_javascript_file.js
+    ```
+     
+     
+
+     
 
     
 
