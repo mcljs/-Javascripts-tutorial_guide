@@ -118,19 +118,19 @@
      Use **snake_case** in:
      
      - Archive:
-      ```
+      ```javascript
       my_javascript_file.js
     ```
      Use **UPPER_CASE** in:
      - Constant
-     ```
+     ```javascript
       const ONE_CONSTANT = 'I am a constant',
        PI = 3.141592653589793
     ```
      Use **UpperCamelCase** in:
      - Classes:
      
-     ```
+     ```javascript
      class ToBeHuman {
         constructor (name,gender) {
             this.name = name
@@ -145,7 +145,7 @@
     Use **lowerCamelCase** in:
     - Objects:
          
-     ```
+     ```javascript
      const oneObject = {
        name: 'Michael',
        email: 'mcljs15@gmail.com'
@@ -153,14 +153,14 @@
     ```
     - Primitive:
            
-     ```
+     ```javascript
      let oneString = 'Hello World',
         oneNumber = 19,
         oneBoolean = true
     ```
     - Functions:
            
-     ```
+     ```javascript
       function helloWorld (name) {
        alert(`Hello world ${name}`)
      }
@@ -168,14 +168,14 @@
     ```
     - Instances:
             
-     ```
+     ```javascript
       const ajax = new XMLHttpRequest(),
       maik = new ToBeHuman('Michael','Man')
     ```
     
    **Reserved words**
    
-      ```
+      ```javascript
       A: abstract
       B: boolean, break, byte
       C: case, catch, char, class, const, continue
