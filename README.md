@@ -62,9 +62,9 @@
 
 | Edition | Published | Changes |
 | ------- | --------- | ------- |
-|1  | [June 1997] | [First edition] | 
-|2  | [EcmaScript?](#ecmascript) |
-|3  | [What is JSX?](#what-is-jsx) |
+|1  | June 1997 | First edition | 
+|2  | June 1998 | Editorial changes to keep the specification fully aligned with ISO/IEC 16262 international standard | 
+|3  | December 1999 | Added regular expressions, better string handling, new control statements, try/catch exception handling, tighter definition of errors, formatting for numeric output and other enhancements |
 
    **[⬆ Back to Top](#table-of-contents)**
     
