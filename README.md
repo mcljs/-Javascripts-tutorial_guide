@@ -108,20 +108,117 @@
      
      **Code writing**
      
-     1. **The identifiers** is the name you give to a variable, function, class. etc should start with:
+     **The identifiers** is the name you give to a variable, function, class. etc should start with:
      - A letter o
      - A dollar sign $ o
      - An underscore _
      - Never with numbers or special characters
      
      
-     2. Use **snake_case** in:
+     Use **snake_case** in:
      
      - Archive:
-     
       ```
       my_javascript_file.js
     ```
+     Use **UPPER_CASE** in:
+     - Constant
+     ```
+      const ONE_CONSTANT = 'I am a constant',
+       PI = 3.141592653589793
+    ```
+     Use **UpperCamelCase** in:
+     - Classes:
+     
+     ```
+     class ToBeHuman {
+        constructor (name,gender) {
+            this.name = name
+            this.gender = gender
+           }
+        MyNameIs ()  {
+           return `My name is ${this.nombre}`
+           }
+         }
+      
+    ```
+    Use **lowerCamelCase** in:
+    - Objects:
+         
+     ```
+     const oneObject = {
+       name: 'Michael',
+       email: 'mcljs15@gmail.com'
+      }
+    ```
+    - Primitive:
+           
+     ```
+     let oneString = 'Hello World',
+        oneNumber = 19,
+        oneBoolean = true
+    ```
+    - Functions:
+           
+     ```
+      function helloWorld (name) {
+       alert(`Hello world ${name}`)
+     }
+     helloWorld('Michael')
+    ```
+    - Instances:
+            
+     ```
+      const ajax = new XMLHttpRequest(),
+      maik = new ToBeHuman('Michael','Man')
+    ```
+    
+   **Reserved words**
+   
+      ```
+      A: abstract
+      B: boolean, break, byte
+      C: case, catch, char, class, const, continue
+      D: debugger, default, delete, do, double
+      E: else, enum, export, extends
+      F: false, final, finally, float, for, function
+      G: goto
+      I: if, implements, import, in, instanceof, init, interface
+      L: long
+      N: native, new, null
+      P: package, private, protected, public
+      R: return
+      S: short, static, super, switch, synchronized
+      T: this, throw, throws, transient, true, try, typeof
+      V: var, volatile, void
+      W: while, with
+    ```
+   **code ordering (recommendation)**
+    
+    1. IMPORT OF MODULES.
+    2. DECLARATION OF VARIABLES.
+    3. DECLARATION OF FUNCTIONS.
+    4. CODE EXECUTION.
+
+    **Data types in JavaScript**
+    
+    1.**Primitive:** The value is accessed directly.
+    
+    - string
+    - number
+    - boolean
+    - null
+    - undefined
+    - NaN
+    
+    2. **Compounds:** The value reference is accessed.
+    
+    - object = {}
+    - array = []
+    - function (){}
+    - Class {}
+    - etc.
+     
      
      
 
