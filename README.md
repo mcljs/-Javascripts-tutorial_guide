@@ -60,9 +60,9 @@
     
 2. ### EcmaScript?
 
-| Edition | Published |
-| ------- | --------- |
-|1  | [What is JavaScript?](#what-is-javascript) |
+| Edition | Published | Changes |
+| ------- | --------- | ------- |
+|1  | [June 1997] | [First edition] | 
 |2  | [EcmaScript?](#ecmascript) |
 |3  | [What is JSX?](#what-is-jsx) |
 
