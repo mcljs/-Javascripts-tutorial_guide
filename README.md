@@ -60,12 +60,12 @@
     
 2. ### EcmaScript?
 
-  | Edicion | Publicación || Cambios |
-  | ------- | ----------- || ------- |
-  | 1 | 1997 || Primera edicion. |
-  | 2 | 1998 || Cambios editorales para mantener la especificación completa alineada con el estándar internacional ISO/IEC 16262. |
-  
-
+| No. | Questions |
+| --- | --------- |
+|   | **Core Javascript** |
+|1  | [What is JavaScript?](#what-is-javascript) |
+|2  | [EcmaScript?](#ecmascript) |
+|3  | [What is JSX?](#what-is-jsx) |
 
    **[⬆ Back to Top](#table-of-contents)**
     
