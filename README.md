@@ -58,13 +58,23 @@
 
    **[⬆ Back to Top](#table-of-contents)**
     
-2. ### EcmaScript?
+2. ### EcmaScript
 
 | Edition | Published | Changes |
 | ------- | --------- | ------- |
 |1  | June 1997 | First edition | 
 |2  | June 1998 | Editorial changes to keep the specification fully aligned with ISO/IEC 16262 international standard | 
 |3  | December 1999 | Added regular expressions, better string handling, new control statements, try/catch exception handling, tighter definition of errors, formatting for numeric output and other enhancements |
+|4  | Abandoned (last draft 30 June 2003) | Fourth Edition was abandoned, due to political differences concerning language complexity. Many features proposed for the Fourth Edition have been completely dropped; some were incorporated into the sixth edition.	 |
+|5  | December 2009 | Adds **"strict mode,"** a subset intended to provide more thorough error checking and avoid error-prone constructs. Clarifies many ambiguities in the 3rd edition specification, and accommodates behaviour of real-world implementations that differed consistently from that specification. Adds some new features, such as getters and setters, library support for JSON, and more complete reflection on object properties. |
+|6  | June 2015 | See [6th Edition – ECMAScript 2015](https://en.wikipedia.org/wiki/ECMAScript#ES2015), |
+|7  | June 2016 | See [7th Edition – ECMAScript 2016](https://en.wikipedia.org/wiki/ECMAScript#ES2016), |
+|8  | June 2017 | See [8th Edition – ECMAScript 2017](https://en.wikipedia.org/wiki/ECMAScript#ES2017), |
+|9  | June 2018 | See [9th Edition – ECMAScript 2018](https://en.wikipedia.org/wiki/ECMAScript#ES2018), |
+|10  | June 2019 | See [10th Edition – ECMAScript 2019](https://en.wikipedia.org/wiki/ECMAScript#ES2019), |
+|11  | June 2020 | See [11th Edition – ECMAScript 2020](https://en.wikipedia.org/wiki/ECMAScript#ES2018), |
+|ESNext  |  | ~and so on...|
+
 
    **[⬆ Back to Top](#table-of-contents)**
     
