@@ -26,8 +26,8 @@
 | --- | --------- |
 |   | **Core Javascript** |
 |1  | [What is JavaScript?](#what-is-javascript) |
-|2  | [EcmaScript?](#ecmascript) |
-|3  | [What is JSX?](#what-is-jsx) |
+|2  | [ECMAScript](#ecmascript) |
+|3  | [Characteristics and Grammar](#characteristics-and-grammar) |
 |4  | [What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component) |
 |5  | [How to create components in React?](#how-to-create-components-in-react) |
 |6  | [When to use a Class Component over a Function Component?](#when-to-use-a-class-component-over-a-function-component) |
@@ -52,7 +52,7 @@
     
 1. ### What is JavaScript?
     
-    JavaScripts fue creado por Brendan Eich en 1995, la gente de Netscape Navigator le pide a Brendan que haga una tecnologia que implemente cosas dinamicas crear formularios, reaccionar a botones con HTML.
+    JavaScripts fue creado por Brendan Eich en 1995, la gente de Netscape Navigator le pide a Brendan Eich que haga una tecnologia que implemente cosas dinamicas como crear formularios, reaccionar a botones con HTML.
 
 
 
@@ -73,29 +73,30 @@
 |9  | June 2018 | See [9th Edition – ECMAScript 2018](https://en.wikipedia.org/wiki/ECMAScript#ES2018), |
 |10  | June 2019 | See [10th Edition – ECMAScript 2019](https://en.wikipedia.org/wiki/ECMAScript#ES2019), |
 |11  | June 2020 | See [11th Edition – ECMAScript 2020](https://en.wikipedia.org/wiki/ECMAScript#ES2018), |
-|ESNext  |  | ~and so on...|
+|ESNext  |  | ~ and so on...|
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-3. ### Ecmascript?
+3. ###   Characteristics and Grammar
 
-    *JSX* is a XML-like syntax extension to ECMAScript (the acronym stands for *JavaScript XML*). Basically it just provides syntactic sugar for the `React.createElement()` function, giving us expressiveness of JavaScript along with HTML like template syntax.
+   Javascripts is a top programming language, a feature is the only language that can **ISOMORPHISM** make an application with a single language from start to finish, capable of running on all 3 layers of an application.
+   
+   1. Fronted(JavaScript).
+   2. Backend(Node.js).
+   3. Data Persistence(MongoDB,Couch DB, Firebase,etc).
 
-    In the example below text inside `<h1>` tag is returned as JavaScript function to the render function.
+    **With Javascript you can:**
+    
+    - Web Design and Development.
+    - Videogame.
+    - 3D Experiences, Augmented Reality, Virtual Reality.
+    - Control hardware (Drones, robots, appliances).
+    - Hybrid and mobile applications.
+    - Machine learning.
+    - etc.
 
-    ```jsx harmony
-    class App extends React.Component {
-      render() {
-        return(
-          <div>
-            <h1>{'Welcome to React world!'}</h1>
-          </div>
-        )
-      }
-    }
-    ```
-
+    
 
    **[⬆ Back to Top](#table-of-contents)**
     
