@@ -60,9 +60,8 @@
     
 2. ### EcmaScript?
 
-| No. | Questions |
-| --- | --------- |
-|   | **Core Javascript** |
+| Edition | Published |
+| ------- | --------- |
 |1  | [What is JavaScript?](#what-is-javascript) |
 |2  | [EcmaScript?](#ecmascript) |
 |3  | [What is JSX?](#what-is-jsx) |
