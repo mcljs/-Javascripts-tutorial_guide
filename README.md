@@ -237,7 +237,7 @@
     var hello  = "Hello World";
     console.log(hello)
       </script>
-    ```
+     ```
     As let is declared in JavaScript:
      ```javascript
       <script>
@@ -277,7 +277,7 @@
 
           print(18)
           ```
-    Si la funcion tiene una sola linea de codigo podemos omitir las llaves, cuando una expresion en flecha tiene varias lineas de codigo hay que respetar la funcion.*/
+    Si la funcion tiene una sola linea de codigo podemos omitir las llaves, cuando una expresion en flecha tiene varias lineas de codigo hay que respetar la funcion.
         
          ```javascript
         const numeros =[1,2,3,4,5];
@@ -290,11 +290,11 @@
       
    Arrow Function Tienen la capacidad de capturar el objeto donde se encuentra, por eso hay que tener mucho cuidado al declarar arrow function al declarar objetos literarios.
    
-   POO (Programacion Orientada a Objeto)
-    Clases - Modelos a seguir
-    Objetos: Es una instancia de una clase
-    - Atributos: Es una carecteristica o propiedad del objeto (son variables dentro de un objeto)
-    Metodos - son acciones que un objeto puede realizar
+   POO (Programacion Orientada a Objeto) 
+   - Clases: Modelos a seguir
+   - Objetos: Es una instancia de una clase
+   - Atributos: Es una carecteristica o propiedad del objeto (son variables dentro de un objeto)
+   - Metodos: son acciones que un objeto puede realizar
  
  
  **[⬆ Back to Top](#table-of-contents)**
