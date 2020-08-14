@@ -28,8 +28,8 @@
 |1  | [What is JavaScript?](#what-is-javascript) |
 |2  | [ECMAScript](#ecmascript) |
 |3  | [Characteristics and Grammar](#characteristics-and-grammar) |
-|4  | [What is the difference between Element and Component?](#what-is-the-difference-between-element-and-component) |
-|5  | [How to create components in React?](#how-to-create-components-in-react) |
+|4  | [Variables: var y let](#variables-var-y-let) |
+|5  | [Arrow Function](#arrow-function) |
 |6  | [When to use a Class Component over a Function Component?](#when-to-use-a-class-component-over-a-function-component) |
 |7  | [What are Pure Components?](#what-are-pure-components) |
 |8  | [What is state in React?](#what-is-state-in-react) |
@@ -228,83 +228,76 @@
 
    **[⬆ Back to Top](#table-of-contents)**
     
-4. ### What is the difference between Element and Component?
+4. ### Variables: var y let
 
-    An *Element* is a plain object describing what you want to appear on the screen in terms of the DOM nodes or other components. *Elements* can contain other *Elements* in their props. Creating a React element is cheap. Once an element is created, it is never mutated.
-
-    The object representation of React Element would be as follows:
-
-    ```javascript
-    const element = React.createElement(
-      'div',
-      {id: 'login-btn'},
-      'Login'
-    )
+    As var is declared in JavaScript:
+    
+      ```javascript
+      <script>
+    var hello  = "Hello World";
+    console.log(hello)
+      </script>
     ```
-
-    The above `React.createElement()` function returns an object:
-
+    As let is declared in JavaScript:
+     ```javascript
+      <script>
+    let hello  = "Hello World";
+    console.log(hello)
+      </script>
     ```
-    {
-      type: 'div',
-      props: {
-        children: 'Login',
-        id: 'login-btn'
-      }
-    }
-    ```
-
-    And finally it renders to the DOM using `ReactDOM.render()`:
-
-    ```html
-    <div id='login-btn'>Login</div>
-    ```
-
-    Whereas a **component** can be declared in several different ways. It can be a class with a `render()` method. Alternatively, in simple cases, it can be defined as a function. In either case, it takes props as an input, and returns a JSX tree as the output:
-
-    ```javascript
-    const Button = ({ onLogin }) =>
-      <div id={'login-btn'} onClick={onLogin}>Login</div>
-    ```
-
-    Then JSX gets transpiled to a `React.createElement()` function tree:
-
-    ```javascript
-    const Button = ({ onLogin }) => React.createElement(
-      'div',
-      { id: 'login-btn', onClick: onLogin },
-      'Login'
-    )
-    ```
+    
+   Important: The <script> </script> format is implemented in an html, we can also compile our code in the console of a web browser (Google Chrome, Mozilla Firefox, Brave, etc) also it indicates the line that I am executing if it is in HTML our script.
+    
+    Since ECMAScript6 (2015) we have block scope we have to generate it with let, if you declare a variable with the word var make global scope, if you do it with let scope it happens in the block scope ** Do not use more var, that is currently bad practice **
+  
+ 
+  
+   
 
 
    **[⬆ Back to Top](#table-of-contents)**
     
-5. ### How to create components in React?
+5. ### Arrow Function
 
     There are two possible ways to create a component.
 
-    1. **Function Components:** This is the simplest way to create a component. Those are pure JavaScript functions that accept props object as first parameter and return React elements:
+    Arrow Function: Con la misma quitamos la palabra function en nuestro codigo.
 
-        ```jsx harmony
-        function Greeting({ message }) {
-          return <h1>{`Hello, ${message}`}</h1>
+      ```javascript
+        const saludar = nombre => console.log(`Hola ${nombre}`);
+        saludar(“Michael”)
+        print(Hola Michael)
+       }
+      ```
 
-        }
+    Cuando recibimos mas de dos parametros tenemos que ubicar los parentesis () y no implicita*
+
+        ```javascript
+        *const sumar = (a,b) => a + b;
+        console.log(suma(9,9));
+
+          print(18)
         ```
+    Si la funcion tiene una sola linea de codigo podemos omitir las llaves, cuando una expresion en flecha tiene varias lineas de codigo hay que respetar la funcion.*/
+        
+         ```javascript
+        const numeros =[1,2,3,4,5];
 
-    2. **Class Components:** You can also use ES6 class to define a component. The above function component can be written as:
-
-        ```jsx harmony
-        class Greeting extends React.Component {
-          render() {
-            return <h1>{`Hello, ${this.props.message}`}</h1>
-          }
-        }
+        numeros.forEach((el, index) => console.log(`${el} esta en la posicion       ${index}`));
+        
         ```
-
-
-   **[⬆ Back to Top](#table-of-contents)**
+     
+      
+   Arrow Function Tienen la capacidad de capturar el objeto donde se encuentra, por eso hay que tener mucho cuidado al declarar arrow function al declarar objetos literarios.
+   
+   POO (Programacion Orientada a Objeto)
+    Clases - Modelos a seguir
+    Objetos: Es una instancia de una clase
+    - Atributos: Es una carecteristica o propiedad del objeto (son variables dentro de un objeto)
+    Metodos - son acciones que un objeto puede realizar
+ 
+ 
+ **[⬆ Back to Top](#table-of-contents)**
     
 6. ### When to use a Class Component over a Function Component?
 
