@@ -259,8 +259,6 @@
     
 5. ### Arrow Function
 
-    There are two possible ways to create a component.
-
     Arrow Function: Con la misma quitamos la palabra function en nuestro codigo.
 
       ```javascript
@@ -272,12 +270,13 @@
 
     Cuando recibimos mas de dos parametros tenemos que ubicar los parentesis () y no implicita*
 
-        ```javascript
-        *const sumar = (a,b) => a + b;
+        
+          ```javascript
+       const sumar = (a,b) => a + b;
         console.log(suma(9,9));
 
           print(18)
-        ```
+          ```
     Si la funcion tiene una sola linea de codigo podemos omitir las llaves, cuando una expresion en flecha tiene varias lineas de codigo hay que respetar la funcion.*/
         
          ```javascript
@@ -287,6 +286,7 @@
         
         ```
      
+        
       
    Arrow Function Tienen la capacidad de capturar el objeto donde se encuentra, por eso hay que tener mucho cuidado al declarar arrow function al declarar objetos literarios.
    
